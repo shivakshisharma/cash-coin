@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  /* Center the App container */
+  .App {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the logo image */
+  img {
+    display: block;
+    margin: 0 auto 50px;
+    width: 150px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .keypad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .keypad-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .keypad-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    color: white;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .keypad-button:hover {
+    background-color: #283593;
+  }
+  
+  .keypad-button:active {
+    animation: shake 0.3s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .keypad-button-clear {
+    background-color: #f44336;
+  }
+  
+  /* Style the cash input form */
+  .cash-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:goldenrod;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: inherit;
+    color: #f44336;
+    font-size: large;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color:green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+  }
+  
+  button:hover {
+    background-color: #34495e;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  .increment-button,
+.decrement-button {
+  background-color: #4caf50;
+  color:yellow;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.cash-input-button:hover {
+  background-color: #3e8e41;
+}
+
+.cash-input-button:active
+ {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+cash-input {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+  font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: inherit;
+    color: #f44336;
+    font-size: medium;
+}
+
+.cash-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+ 
+}

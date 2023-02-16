@@ -1,0 +1,15 @@
+/*import React from 'react';
+import {QRCodeSVG} from 'qrcode.react';
+
+const QRCodePage = ({ qrCode }) => {
+  return (
+    
+    <div className="qr-code">
+      <h2>QR Code</h2>
+      <QRCode value={qrCode} />
+    </div>
+    
+  );
+};
+
+export default QRCodePage;*/
