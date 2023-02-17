@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <img src="coin.jpg" alt="Coin Logo" />
+      <img className ="coin"src="coin.jpg" alt="Coin Logo" />
       <CashInput />
       
     </div>

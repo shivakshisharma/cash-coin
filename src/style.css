@@ -19,8 +19,10 @@ body {
   }
   
   /* Style the logo image */
-  img {
+  .coin{
     display: block;
+    position:relative;
+    top: 10px;
     margin: 0 auto 50px;
     width: 150px;
     animation: spin 2s linear infinite;
@@ -202,3 +204,57 @@ cash-input {
   font-size: 24px;
  
 }
+.qrcode{
+  /* left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0.48px; */
+  
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(140, 161, 182, 0.2) 100%), #DFE3E8;
+  border-radius: 100px;
+ 
+  padding: 200px;
+  width:150px;
+
+  left: 22.05%;
+  right: 22.05%;
+  top: 3.86%;
+  bottom: 80.76%;
+
+}
+.image2{
+  position:relative;
+  left: 0.05%;
+  top:0;
+  
+}
+.image3{
+  position: relative;
+width: 125.22px;
+height: 51.91px;
+left: -100px;
+top: 30.28px;
+}
+.image5{
+  position: relative;
+width: 135.16px;
+height: 150.11px;
+left: 150.31px;
+top: -70.66px;
+
+}
+.image4{
+position:relative;
+width: 157.58px;
+height: 105.05px;
+left: 150.67px;
+top: -80.18px;
+}
+.image6{
+  position:relative;
+  width: 157.58px;
+height: 120.05px;
+left: -100.67px;
+top: -190.18px;
+}
+
