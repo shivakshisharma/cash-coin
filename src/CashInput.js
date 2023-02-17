@@ -63,7 +63,8 @@ const handleSubmit = (event) => {
     })
     .then(function (response) {
       console.log(response.data,"response data");
-      setQr(response.data.response.data.body.qrData);
+     // setQr(response.data.response.data.body.qrData);
+      setQr(response.data);
     });
     // });
   }
